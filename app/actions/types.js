@@ -1,0 +1,6 @@
+//here you can find all action types used in this app
+export const FETCH_FAMILY_TREE_REQUEST = 'FETCH_FAMILY_TREE_REQUEST';
+export const FETCH_FAMILY_TREE_FAILURE = 'FETCH_FAMILY_TREE_FAILURE';
+export const FETCH_FAMILY_TREE_SUCCESS = 'FETCH_FAMILY_TREE_SUCCESS';
+
+export const SET_RESULT_MEMBER = 'SET_RESULT_MEMBER';

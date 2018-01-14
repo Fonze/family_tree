@@ -6,9 +6,9 @@
 
 import React, { Component } from 'react';
 
-import Index from './app';
+import Index from './app/index';
 
-class App extends Component<{}> {
+class App extends Component {
   render() {
     return (
       <Index />

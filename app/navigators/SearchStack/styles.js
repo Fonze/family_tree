@@ -6,21 +6,20 @@ export default StyleSheet.create({
   flexOne: {
     flex: 1
   },
-  body: {
+  modalBackDrop: {
     flex: 1,
-    padding: 24,
-    backgroundColor: colors.darkPastelBlue
-  },
-  button: {
-    width: '100%',
-    height: 48,
-    marginVertical: 16,
     justifyContent: 'center',
     alignItems: 'center',
-    borderRadius: 8
+    backgroundColor: 'rgba(0,0,0,0.7)'
   },
-  buttonText: {
-    textAlign: 'center',
-    fontWeight: 'bold'
+  loadingArea: {
+    width: 320,
+    height: 180,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: colors.white
+  },
+  loadingText: {
+    textAlign: 'center'
   }
 });
